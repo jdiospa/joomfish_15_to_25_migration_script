@@ -1,0 +1,47 @@
+@CHARSET "UTF-8";
+/**
+ * (c) 2013 by http://www.keepitnative.ch
+ * all rights reserved
+ * @file terminal.css
+ * @author ps
+ */
+#terminal {
+	display:block;
+	height:300px;
+	margin:10px 0 10px 10px;
+	overflow:auto;
+	width:420px;
+}
+#terminal-inner {
+    background: none repeat scroll 0 0 #000000;
+    font-family: Courier,monospace,sans-serif;
+    height: auto;
+    min-height: 420px;
+    padding: 5px;
+    position: relative;
+    size: 12px;
+    width: 395px;
+    z-index: 777;
+}
+#terminal-inner:before, #terminal-inner:after {
+	content:".":
+	visibility: hidden;
+}
+#response {
+	left: 50%;
+    margin: -16px 0 0 -16px;
+    position: absolute;
+    top: 30%;
+    z-index: 10001;
+}
+#loader-txt {
+	color:#fff;
+	display:block;
+	height:20px;
+	left:50%;
+	margin:31% 0 0 -100px;
+	position:absolute;
+	text-align:center;
+	text-decoration: blink;
+	width:200px;
+}

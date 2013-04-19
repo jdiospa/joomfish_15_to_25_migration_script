@@ -1,0 +1,72 @@
+@CHARSET "UTF-8";
+/**
+ * (c) 2013 by http://www.keepitnative.ch
+ * all rights reserved
+ * @file style.css
+ * @author ps
+ */
+body {
+	background: rgb(111,111,111);
+	color: rgb(244,244,244);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 62.8%;
+}
+a, a:active, a:visited, a:hover, a:focus {
+	color:#fff;
+	font-weight:bold;
+	text-decoration:none;
+}
+#wrapper, .success-msg {
+	display: block;
+	margin:0 auto;
+	position:relative;
+	width: 420px;
+}
+h1 {
+	font-size: 1.2em;
+	font-weight: bold;
+	text-align:center;
+}
+h2 {
+	font-size: 1.1em;
+	font-weight: bold;
+}
+p {
+	font-size: 1em;
+	margin-bottom:10px;
+}
+fieldset {
+	width: 420px;
+	border-radius: 10px;
+}
+input {
+	background: rgb(244,244,244);
+	border-radius: 10px;
+	color: rgb(111,111,111);
+	font-weight: bold;
+}
+#db-data fieldset {
+	
+}
+#db-data label, #db-data input {
+	display:block;
+	float:left;
+	margin-bottom:10px;
+	width:48%;
+}
+#db-data input[type=submit] {
+	width:60%;
+}
+#db-data label {
+	
+}
+#db-data input {
+	padding-left: 10px;
+}
+.clear {
+	clear:both;
+}
+.clear:before, .clear:after {
+	content:".";
+	visibility:hidden;
+}
